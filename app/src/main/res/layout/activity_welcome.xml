@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    tools:context=".WelcomeActivity">
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="StepsCount"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:layout_margin="20dp"
+           android:id="@+id/stepsCountApp"
+           android:backgroundTint="#E91E63"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ImagePicker"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:layout_margin="20dp"
+           android:id="@+id/imagePicker"
+           android:backgroundTint="#E91E63"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Weather App"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:layout_margin="20dp"
+           android:id="@+id/weather"
+           android:backgroundTint="#E91E63"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Retrofit"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:layout_margin="20dp"
+           android:id="@+id/retrofit"
+           android:backgroundTint="#E91E63"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Retrofit@"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:layout_margin="20dp"
+           android:id="@+id/retrofit2"
+           android:backgroundTint="#E91E63"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Snake Game"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:layout_margin="20dp"
+           android:id="@+id/snakeGame"
+           android:backgroundTint="#E91E63"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Notes App"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:layout_margin="20dp"
+           android:id="@+id/notesApp"
+           android:backgroundTint="#E91E63"/>
+
+
+</LinearLayout>
