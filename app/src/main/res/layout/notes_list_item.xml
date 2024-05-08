@@ -6,32 +6,54 @@
     android:background="@drawable/bac_border">
 
     <TextView
+        android:id="@+id/date_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:padding="10dp"
-        android:textColor="#FFFFFF"
-        android:id="@+id/title_text"
         android:text="Enter title"
+        android:textColor="#009688" />
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
-         />
+        android:layout_below="@+id/date_text"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:text="Enter title"
+        android:textColor="#9C27B0" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:textColor="#FFFFFF"
+        android:textColor="#E91E63"
         android:layout_toLeftOf="@+id/delete_image"
         android:layout_below="@+id/title_text"
         android:id="@+id/desc_text"
         android:text="Enter desc"
         android:layout_margin="10dp"
         />
-<ImageView
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
     android:id="@+id/delete_image"
     android:layout_width="50dp"
     android:layout_height="50dp"
-    android:layout_marginTop="20dp"
+    android:layout_marginTop="30dp"
     android:src="@mipmap/ic_launcher"
-    android:layout_centerHorizontal="true"
     android:layout_alignEnd="@id/title_text"/>
 
 

@@ -33,6 +33,12 @@
         android:theme="@style/Theme.MailValidation"
         tools:targetApi="31">
         <activity
+            android:name=".wallpaper.WallpaperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImplicitIntent.ImplicitIntentActivity"
+            android:exported="false" />
+        <activity
             android:name=".Retrofit2.RetrofitMainActivity"
             android:exported="false" />
         <activity

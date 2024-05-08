@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wallpaper.WallpaperActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/urlText"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnSubmit"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/ll1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Set Wallpaper"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:id="@+id/setWapaperBtn"
+       />
+
+
+
+</RelativeLayout>

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.mailvalidation.ImplicitIntent.ImplicitIntentActivity
 import com.example.mailvalidation.NotesApp.NotesAppActivity
 import com.example.mailvalidation.Retrofit2.RetrofitMainActivity
 import com.example.mailvalidation.databinding.ActivityWelcomeBinding
@@ -60,6 +61,9 @@ class WelcomeActivity : AppCompatActivity() {
         }
         binding.notesApp.setOnClickListener {
             startActivity(Intent(this, NotesAppActivity::class.java))
+        }
+        binding.implicit.setOnClickListener {
+            startActivity(Intent(this, ImplicitIntentActivity::class.java))
         }
     }
 }

@@ -32,12 +32,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/getImage"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/back_corner"
+        android:layout_below="@+id/desc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="pick image"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/desc"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/cameraText"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save Note"
-        android:layout_below="@+id/desc"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/getImage"
         android:id="@+id/save_btn"/>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
