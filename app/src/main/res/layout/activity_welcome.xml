@@ -87,6 +87,15 @@
            android:layout_margin="20dp"
            android:id="@+id/implicit"
            android:backgroundTint="#E91E63"/>
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Contacts"
+                  android:gravity="center"
+                  android:textSize="24sp"
+                  android:layout_margin="20dp"
+                  android:id="@+id/contacts"
+                  android:backgroundTint="#E91E63"/>
        </LinearLayout>
        </ScrollView>
 

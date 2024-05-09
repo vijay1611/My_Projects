@@ -7,6 +7,7 @@ import android.util.Log
 import com.example.mailvalidation.ImplicitIntent.ImplicitIntentActivity
 import com.example.mailvalidation.NotesApp.NotesAppActivity
 import com.example.mailvalidation.Retrofit2.RetrofitMainActivity
+import com.example.mailvalidation.contentProvider.ContentProviderActivity
 import com.example.mailvalidation.databinding.ActivityWelcomeBinding
 import com.example.mailvalidation.image.ImagePickerActivity
 import com.example.mailvalidation.retrofit.RetrofitPracticeActivity
@@ -64,6 +65,9 @@ class WelcomeActivity : AppCompatActivity() {
         }
         binding.implicit.setOnClickListener {
             startActivity(Intent(this, ImplicitIntentActivity::class.java))
+        }
+        binding.contacts.setOnClickListener {
+            startActivity(Intent(this, ContentProviderActivity::class.java))
         }
     }
 }
